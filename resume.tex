@@ -1,0 +1,222 @@
+% resume.tex To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/1.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+\documentclass[letterpaper,12pt]{article}
+
+%-----------------------------------------------------------
+\usepackage{tabularx}
+\usepackage{marvosym}
+\usepackage[empty]{fullpage}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage[pdftex]{hyperref}
+\usepackage{multirow}
+\hypersetup{
+    colorlinks,%
+    citecolor=black,%
+    filecolor=black,%
+    linkcolor=black,%
+    urlcolor=mygreylink     % can put red here to visualize the links
+}
+\urlstyle{same}
+\definecolor{mygrey}{gray}{.85}
+\definecolor{mygreylink}{gray}{0}
+\textheight=9.0in
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{0.375in}
+\addtolength{\textwidth}{0.5in}
+\addtolength{\topmargin}{-.375in}
+\addtolength{\textheight}{0.75in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+
+\newcommand{\ressubsubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textit{#1} & \textit{#2} \\
+\end{tabular*}\vspace{-6pt}}
+
+\renewcommand{\labelitemi}{}
+\renewcommand{\labelitemii}{$\diamond$}
+\renewcommand{\labelitemiii}{$\ast$}
+%-----------------------------------------------------------
+%General Resume Tips
+%   No periods!  Technically, nothing in this document is a full sentence.
+%   Use parallelism by ending key words with the same thing,  i.e. "Coordinated; Designed; Communicated".
+%   More tips on bottom of this LaTeX document.
+%-----------------------------------------------------------
+
+\begin{document}
+\newcommand{\mywebheader}{
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+	\multirow{4}{*}{\huge \bf Joseph Pintozzi} & {765 N Hampden Ave \#206}\\
+														& {Saint Paul, MN 55114}\\
+														& \href{mailto:joseph@pintozzi.com}{joseph@pintozzi.com}\\
+														& {815/790-2927}
+	\end{tabular*}
+\\
+\vspace{0.1in}
+}
+
+% CHANGE HEADER SOURCE HERE
+\mywebheader
+
+%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Experience}
+	\begin{itemize}
+     \item 
+			\ressubheading{\href{http://softwareforgood.com/}{Software for Good}}{Minneapolis, MN}{Software Application Developer}{September 2013 -- Present}
+				{ \footnotesize
+				\begin{itemize}
+					\resitem{Develop iOS and Android applications}
+					\resitem{Develop Rails backends and API services}
+					\resitem{Develop Angular clients to tie in and work with JSON returning backends}
+				\end{itemize}
+         }
+      \item 
+			\ressubheading{\href{http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewArtist?id=337595590}{Tiny Dragon Apps, LLC}}{Milwaukee, WI}{Founder/Owner}{October 2009 -- Present}
+				{ \footnotesize
+				\begin{itemize}
+					\resitem{Design, develop, program, publish, and support iPhone and Android applications}
+					\resitem{Research and adhere to Apple guidelines}
+					\resitem{Manage contract employees used for projects}
+				\end{itemize}
+         }
+         %end job 1
+     \item 
+			\ressubheading{\href{http://www.gokartlabs.com}{GoKart Labs, LLC}}{Minneapolis, MN}{Mobile Application Developer}{June 2012 -- September 2013}
+				{ \footnotesize
+				\begin{itemize}
+					\resitem{Develop iOS and Android applications}
+					\resitem{Help with backend Rails development}
+					\resitem{Work with third party development teams and coordinate project execution}
+					\resitem{Gather and document technical requirements for client projects}
+				\end{itemize}
+         }
+      \item 
+			\ressubheading{\href{http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewArtist?id=337595590}{Tiny Dragon Apps, LLC}}{Milwaukee, WI}{Founder/Owner}{October 2009 -- Present}
+				{ \footnotesize
+				\begin{itemize}
+					\resitem {Design, develop, program, publish, and support iPhone and Android applications}
+					\resitem{Research and adhere to Apple guidelines}
+					\resitem{Manage contract employees used for projects}
+				\end{itemize}
+         }
+         %end job 1
+     \item 
+			\ressubheading{\href{http://www.core-apps.com/Home.html}{Core-Apps, LLC}}{Arnold, MD}{Software Developer/Project Manager}{August 2009 -- June 2012}
+				{ \footnotesize
+				\begin{itemize}
+					\resitem{Develop iPhone, iPad, and Android applications}
+					\resitem{Manage both iOS and Android software development teams}
+						\begin{itemize}
+							\resitem{Manage project tasks, delegating to employees and following  up with upon completion}
+							\resitem{Assisting other developers with completing tasks that are too large for a single individual}
+							\resitem{Ensuring feature parity across both mobile application platforms}
+						\end{itemize}
+					\resitem{Coordinate with other decentralized developers to ensure that products meet required specifications}
+					\resitem{Travel to perform on-site QA with clients}
+				\end{itemize}
+         }
+         %end job 2
+     \item 
+			\ressubheading{\href{http://www.teschglobal.com/}{Tesch Global}}{Grafton, WI}{Software Developer/IT Infrastructure}{March 2010 -- September 2010}
+				{ \footnotesize
+				\begin{itemize}
+					\resitem{Designed and developed iPhone applications according to documented specifications}
+					\resitem{Set up and maintained both physical and virtual web/database servers}
+					\resitem{Collaborated with other development teams to ensure milestone completion}
+					\resitem{Managed Amazon EC2 servers used for testing environments}
+					\resitem{Customized e-commerce installations to fulfill requirements}
+				\end{itemize}
+         }
+         %end job 3
+
+	\item 
+			\ressubheading{\href{http://www.gasday.com/web/}{GasDay}}{Milwaukee, WI}{IT Manager}{November 2009 -- May 2010}
+				{ \footnotesize
+				\begin{itemize}
+					\resitem{Managed the IT department}
+					\resitem{Planned and presented long-term deployment projects}
+					\resitem{Trained new employees on company policies and procedures}
+				\end{itemize}
+         }
+         %end job 4
+         \item 
+			\ressubheading{\href{http://www.harley-davidson.com/}{Harley-Davidson}}{Wauwatosa, WI}{GIS Client Intern}{September 2008 -- June 2009}
+				{ \footnotesize
+				\begin{itemize}
+					\resitem{Responsible for 1st and 2nd level help desk support, providing support over the phone/remote access and in person}
+					\resitem{Supported technical workstations, standard desktops, and laptops used for mobile work}
+					\resitem{Imaged and deployed workstations}
+					\resitem{Recorded and maintained records of technical incidents within a tracking system}
+				\end{itemize}
+         }
+         %end job 5
+         \item 
+			\ressubheading{\href{http://centegra.org/}{Centegra Health System}}{McHenry, IL}{Desktop Support/Help Desk}{May 2008 -- August 2008}
+				{ \footnotesize
+				\begin{itemize}
+					\resitem{Responsible for supporting personal computers used by medical staff within the hospital}
+					\resitem{Updated software and configured for use on workstations and servers}
+					\resitem{Held training sessions to teach end users how to best utilize software}
+					\resitem{Provided quick and efficient over-the-phone technical support}
+				\end{itemize}
+         }
+         %end job 6
+         \item 
+			\ressubheading{\href{http://www.gasday.com/web/}{GasDay}}{Milwaukee, WI}{IT Support}{September 2007 -- May 2008}
+				{ \footnotesize
+				\begin{itemize}
+					\resitem{Responsible for updating, maintaining, and troubleshooting a small business network}
+					\resitem{Managed AD-linked servers}
+					\resitem{Maintained a 17 node MATLAB cluster used for mathematical computations}
+					\resitem{Set up secure single-client access websites}
+				\end{itemize}
+         }
+         %end job 7
+         
+	\end{itemize}  % End Experience list
+
+%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Education}
+	\begin{itemize}
+		\item
+			\ressubheading{\href{http://marquette.edu/}{Marquette University}}{Milwaukee, WI}{\href{http://www.marquette.edu/engineering/electrical_computer/}{BS - Computer Engineering}}{August 2006 -- July 2010}
+				{ \footnotesize
+				\begin{itemize}
+					\resitem{Major GPA 3.4}
+				\end{itemize}
+				}
+	\end{itemize} % End Education list
+
+%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Technical Skills}
+	\begin{center}
+		\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}  c c c }
+			General & Languages & Operating Systems \\
+			\hline
+			\\
+			Object-Oriented Design & C/Objective-C & Mac OS X \\ 
+			Project Management & Java & Linux (ArchLinux, Fedora, SUSE, Ubuntu) \\
+			MSSQL/MySQL/SQLite & Python & Windows XP/Vista/7\\
+			Database Design & PHP & Windows Server 2003/2008 \\
+			Network Infrastructure & Ruby &  VMWare ESXi\\
+			RESTful Web Services &  &  \\
+		\end{tabular*}
+	\end{center}
+
+% End Skills list
+\end{document}
+
