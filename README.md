@@ -1,14 +1,14 @@
 # Experience
 
-## Software for Good
+## Evolve Labs
 
-**Software Application Developer**
+**Software Engineer**
 
-_Sept'13 - Present_
+_Dec'14 - Present_
 
-- Develop iOS and Android applications
 - Develop Rails backends and API services
-- Develop Angular clients to tie in and work with JSON returning backends
+- Maintain web, database, and CDN servers
+- Monitor and document production environment
 
 ## Tiny Dragon Apps, LLC
 
@@ -19,6 +19,16 @@ _Oct'09 - Present_
 - Design, develop, program, publish, and support iPhone and Android applications
 - Research and adhere to Apple guidelines
 - Manage contract employees used for projects
+
+## Software for Good
+
+**Software Application Developer**
+
+_Sept'13 - Nov'14_
+
+- Develop iOS and Android applications
+- Develop Rails backends and API services
+- Develop Angular clients to tie in and work with JSON returning backends
 
 ## GoKart Labs, LLC
 
