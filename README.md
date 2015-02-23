@@ -7,8 +7,9 @@
 _Dec'14 - Present_
 
 - Develop Rails backends and API services
+- Monitor and manage production environment of 1million+ users
+- Plan and execute migrations from legacy systems to newly architected ones
 - Maintain web, database, and CDN servers
-- Monitor and document production environment
 
 ## Tiny Dragon Apps, LLC
 
